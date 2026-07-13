@@ -14,25 +14,25 @@ export const topics = [
     emoji: "🃏",
     title: "Pokémon cards",
     blurb:
-      "Our bread and butter. Pulls, deals, grading, trades and the hunt for that one card.",
+      "Drops, god packs, grading debates and binder builds. We cover every Smyths queue, card show and LCS in the region and share when stock actually lands — not when it's already gone.",
   },
   {
     emoji: "🏠",
-    title: "Mortgages",
+    title: "Life stuff",
     blurb:
-      "Rates, first-time-buyer chat and the occasional celebratory completion post.",
+      "House viewings, baby announcements, car troubles, celebratory meals out. The real things that happen between the card drops.",
   },
   {
     emoji: "🍦",
     title: "McFlurries",
     blurb:
-      "Broken machine sightings, flavour rankings and strong, unfiltered opinions.",
+      "A sacred topic. Flavour rankings, broken machine reports and strong opinions. The Durham drive-thru machine is fixed, by the way.",
   },
   {
     emoji: "💬",
-    title: "General life",
+    title: "General banter",
     blurb:
-      "Whatever's going on — a proper, welcoming community that just likes a natter.",
+      "England match watch-parties, takeaway debates, gig chat and whatever else comes up. Less structured Discord, more group chat with decent people.",
   },
 ] as const;
 

@@ -10,9 +10,9 @@ export function Community() {
               Join the community
             </h2>
             <p className="mt-4 text-zinc-300">
-              Whether you&apos;re chasing chase cards, comparing mortgage rates or
-              just fancy a natter, there&apos;s a seat for you. Jump into our
-              Discord and introduce yourself.
+              Whether you want the tip on the next Smyths drop, someone to be
+              excited with when you pull something good, or just a decent group
+              chat — there&apos;s a seat for you. Jump in and say hello.
             </p>
             <div className="mt-8 flex justify-center">
               <DiscordButton size="lg" />

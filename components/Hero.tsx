@@ -42,9 +42,9 @@ export function Hero() {
           </h1>
 
           <p className="mt-5 max-w-md text-base leading-relaxed text-zinc-400 sm:text-lg">
-            We chat Pokémon cards (mainly), mortgages, McFlurries and general
-            life — and drop area notifications right across the region. Built by
-            collectors, for collectors. Come say hello.
+            Pokémon drops, god packs, England match watch-parties and Friday
+            night takeaway debates. We cover the whole North East and keep each
+            other in the loop — built by collectors, for collectors.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
