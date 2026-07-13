@@ -12,27 +12,27 @@ export const site = {
 export const topics = [
   {
     emoji: "🃏",
-    title: "Pokémon cards",
+    title: "Trading Cards",
     blurb:
       "Drops, god packs, grading debates and binder builds. We cover every Smyths queue, card show and LCS in the region and share when stock actually lands — not when it's already gone.",
   },
   {
-    emoji: "🏠",
-    title: "Life stuff",
+    emoji: "🎆",
+    title: "Northern Life",
     blurb:
-      "House viewings, baby announcements, car troubles, celebratory meals out. The real things that happen between the card drops.",
+      "House viewings, baby announcements, car troubles, celebratory meals out and strong opinions on local takeaways. The real things that happen between the card drops.",
   },
   {
     emoji: "🍦",
     title: "McFlurries",
     blurb:
-      "A sacred topic. Flavour rankings, broken machine reports and strong opinions. The Durham drive-thru machine is fixed, by the way.",
+      "We have a custom McFlurry emoji. It gets deployed on the daily scoreboard. Nobody's entirely sure how it started. Nobody's stopping it.",
   },
   {
-    emoji: "💬",
-    title: "General banter",
+    emoji: "🤪",
+    title: "Manic behaviour",
     blurb:
-      "England match watch-parties, takeaway debates, gig chat and whatever else comes up. Less structured Discord, more group chat with decent people.",
+      "Queuing two nights for a card box, bidding on eBay live gone midnight for postage you'll never recoup, starting a pizza debate at 11pm. You know the ones.",
   },
 ] as const;
 
