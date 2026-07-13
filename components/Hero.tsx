@@ -42,9 +42,8 @@ export function Hero() {
           </h1>
 
           <p className="mt-5 max-w-md text-base leading-relaxed text-zinc-400 sm:text-lg">
-            Pokémon drops, god packs, England match watch-parties and Friday
-            night takeaway debates. We cover the whole North East and keep each
-            other in the loop — built by collectors, for collectors.
+            Tyne & Wear region chat for slightly unhinged collectors. Geordies,
+            Mackems, Smoggies and even a couple Loiners included.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
