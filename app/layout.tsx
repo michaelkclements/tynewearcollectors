@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { site } from "@/lib/site";
 
@@ -51,7 +52,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${figtree.variable} h-full`}>
-      <body className="flex min-h-full flex-col">{children}</body>
+      <body className="flex min-h-full flex-col">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
