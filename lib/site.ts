@@ -3,7 +3,7 @@ export const site = {
   shortName: "TWC",
   tagline: "The North East collectors' community",
   description:
-    "A friendly North East community for collectors. We chat Pokémon cards (mainly), mortgages, McFlurries and general life — and post area notifications across Newcastle, Gateshead, Sunderland, Northumberland, Durham and Teesside.",
+    "Pokémon card drops, god packs, England match watch-parties and Friday night takeaway debates. Area notifications across Newcastle, Gateshead, Sunderland, Northumberland, Durham and Teesside. Built by collectors, for collectors.",
   url: "https://tynewearcollectors.com",
   discord: "https://discord.gg/hMFpaWxSNp",
   instagram: "https://instagram.com/tynewearcollectors",
