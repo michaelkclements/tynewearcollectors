@@ -9,7 +9,7 @@ import { DiscordButton } from "@/components/DiscordButton";
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/70 backdrop-blur-md">
-      <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-5 py-3.5">
+      <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:gap-4 sm:px-5 sm:py-3.5">
         <a href="#top" aria-label="Go to homepage" className="flex items-center gap-2.5">
           <Image
             src="/logo.png"
@@ -19,12 +19,12 @@ export function Header() {
             className="rounded-xl"
             priority
           />
-          <span className="text-sm font-bold tracking-tight sm:text-base">
+          <span className="hidden text-sm font-bold tracking-tight sm:inline sm:text-base">
             Tyne &amp; Wear <span className="text-amber-400">Collectors</span>
           </span>
         </a>
 
-        <div className="flex items-center gap-3">
+        <div className="flex shrink-0 items-center gap-3">
           <a
             href={site.instagram}
             target="_blank"

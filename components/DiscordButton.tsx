@@ -31,7 +31,7 @@ export function DiscordButton({
       rel="noopener noreferrer"
       aria-label={`Join the ${site.name} Discord server (opens in a new tab)`}
       onClick={() => track("discord_click", { location: location ?? "unknown" })}
-      className={`group relative inline-flex items-center justify-center rounded-lg bg-indigo-500 py-0.5 font-semibold text-white transition-colors hover:bg-indigo-600 ${sizes[size]}`}
+      className={`group relative inline-flex shrink-0 items-center justify-center rounded-lg bg-indigo-500 py-0.5 font-semibold whitespace-nowrap text-white transition-colors hover:bg-indigo-600 ${sizes[size]}`}
     >
       <span className="z-10 pr-2">
         <span className="relative inline-flex overflow-hidden">
