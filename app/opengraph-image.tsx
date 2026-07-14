@@ -62,20 +62,6 @@ export default async function Image() {
           The North East collectors&apos; community
         </div>
 
-        {/* Discord URL */}
-        <div
-          style={{
-            marginTop: 36,
-            fontSize: 24,
-            color: "#f97316",
-            background: "rgba(249,115,22,0.12)",
-            border: "1px solid rgba(249,115,22,0.3)",
-            borderRadius: 999,
-            padding: "10px 28px",
-          }}
-        >
-          discord.gg/hMFpaWxSNp
-        </div>
       </div>
     ),
     { ...size }
