@@ -1,25 +1,49 @@
+import React from "react";
 import Image from "next/image";
 import { DiscordButton } from "@/components/DiscordButton";
 import { DiscordIcon } from "@/components/icons";
 
-const notifications = [
+const notifications: Array<{
+  id: string;
+  channel: string;
+  time: string;
+  text: React.ReactNode;
+}> = [
   {
     id: "amazon",
     channel: "#amazon",
     time: "Now",
-    text: "<strong className='text-amber-400'>@Amazon</strong> Invites are sent out now, check out <a href='https://www.amazon.co.uk/s?k=Pokemon+tcg&rh=n%3A26954013031%2Cp_85%3A20930949031%2Cp_123%3A325733%2Cp_6%3AA3P5ROKL5A1OLE&s=date-desc-rank&dc&ds=v1%3A%2FAJH5l6S%2BV%2FFC2Re2wpwRIM8bw%2BA1UBm740aP2t6RlA&crid=3EOR1K3ND82UJ&qid=1774339516&rnid=367778011&sprefix=pokemon+tcg%2Caps%2C264&tag=tynewearcollectors-21&ref=sr_st_date-desc-rank'>this link.</a>",
+    text: (
+      <>
+        <strong className="text-amber-400">@Amazon</strong> Invites are sent
+        out now, check out{" "}
+        <a
+          href="https://www.amazon.co.uk/s?k=Pokemon+tcg&rh=n%3A26954013031%2Cp_85%3A20930949031%2Cp_123%3A325733%2Cp_6%3AA3P5ROKL5A1OLE&s=date-desc-rank&dc&ds=v1%3A%2FAJH5l6S%2BV%2FFC2Re2wpwRIM8bw%2BA1UBm740aP2t6RlA&crid=3EOR1K3ND82UJ&qid=1774339516&rnid=367778011&sprefix=pokemon+tcg%2Caps%2C264&tag=tynewearcollectors-21&ref=sr_st_date-desc-rank"
+          className="text-amber-400 underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          this link.
+        </a>
+      </>
+    ),
   },
   {
     id: "general-metro",
     channel: "#general",
     time: "2m",
-    text: "<strong className='text-amber-400'>@gateshead</strong> Metro Smyth's have got quite a few AH bundles left and some pins",
+    text: (
+      <>
+        <strong className="text-amber-400">@gateshead</strong> Metro
+        Smyth&apos;s have got quite a few AH bundles left and some pins
+      </>
+    ),
   },
   {
     id: "general-mcflurry",
     channel: "#general",
     time: "5m",
-    text: "Don’t believe him I didn’t even get a McFlurry 🍦",
+    text: <>Don&apos;t believe him I didn&apos;t even get a McFlurry 🍦</>,
   },
 ];
 
@@ -90,10 +114,7 @@ export function Hero() {
                         </p>
                         <span className="text-xs text-zinc-500">{n.time}</span>
                       </div>
-                      <p
-                        className="mt-0.5 text-sm"
-                        dangerouslySetInnerHTML={{ __html: n.text }}
-                      />
+                      <p className="mt-0.5 text-sm text-zinc-200">{n.text}</p>
                     </div>
                   </div>
                 </div>
