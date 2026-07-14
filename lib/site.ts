@@ -26,7 +26,7 @@ export const topics = [
     emoji: "🍦",
     title: "McFlurries",
     blurb:
-      "We have a custom McFlurry emoji. It gets deployed on the daily scoreboard. Nobody's entirely sure how it started. Nobody's stopping it.",
+      "Some of us like Dogs, Cats and even McFlurries. Join our chats and use the scoreboard bot to see who's top for chatting during the day.",
   },
   {
     emoji: "🤪",
