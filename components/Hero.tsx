@@ -7,19 +7,19 @@ const notifications = [
     id: "amazon",
     channel: "#amazon",
     time: "Now",
-    text: "New restock spotted — 151 Elite Trainer Box just dropped on Amazon 👀",
+    text: "<strong className='text-amber-400'>@Amazon</strong> Invites are sent out now, check out <a href='https://www.amazon.co.uk/s?k=Pokemon+tcg&rh=n%3A26954013031%2Cp_85%3A20930949031%2Cp_123%3A325733%2Cp_6%3AA3P5ROKL5A1OLE&s=date-desc-rank&dc&ds=v1%3A%2FAJH5l6S%2BV%2FFC2Re2wpwRIM8bw%2BA1UBm740aP2t6RlA&crid=3EOR1K3ND82UJ&qid=1774339516&rnid=367778011&sprefix=pokemon+tcg%2Caps%2C264&tag=tynewearcollectors-21&ref=sr_st_date-desc-rank'>this link.</a>",
   },
   {
     id: "general-metro",
     channel: "#general",
     time: "2m",
-    text: "<strong>@gateshead</strong> MetroCentre shelves restocked with Prismatic Evolutions boosters.",
+    text: "<strong className='text-amber-400'>@gateshead</strong> Metro Smyth's have got quite a few AH bundles left and some pins",
   },
   {
     id: "general-mcflurry",
     channel: "#general",
     time: "5m",
-    text: "The McFlurry machine at the Durham drive-thru is FIXED. This is not a drill 🍦",
+    text: "Don’t believe him I didn’t even get a McFlurry 🍦",
   },
 ];
 
@@ -79,7 +79,7 @@ export function Hero() {
                         height={48}
                         className="size-12 rounded-full object-cover"
                       />
-                      <div className="absolute -bottom-0.5 -right-0.5 rounded-md bg-indigo-500 p-1 text-white">
+                      <div className="absolute -bottom-0.5 -right-0.5 rounded-md bg-indigo-500 p-1">
                         <DiscordIcon className="size-3" />
                       </div>
                     </div>
@@ -91,7 +91,7 @@ export function Hero() {
                         <span className="text-xs text-zinc-500">{n.time}</span>
                       </div>
                       <p
-                        className="mt-0.5 text-sm text-zinc-200"
+                        className="mt-0.5 text-sm"
                         dangerouslySetInnerHTML={{ __html: n.text }}
                       />
                     </div>
