@@ -1,7 +1,11 @@
+"use client";
+
+import { track } from "@vercel/analytics";
 import { site } from "@/lib/site";
 import { ArrowRightIcon, DiscordIcon } from "@/components/icons";
 
 type Size = "md" | "lg";
+type Location = "header" | "hero" | "community" | "footer";
 
 const sizes: Record<Size, string> = {
   md: "h-[38px] pr-12 pl-5 text-sm",
@@ -13,13 +17,20 @@ const knobSizes: Record<Size, string> = {
   lg: "h-11 w-11",
 };
 
-export function DiscordButton({ size = "md" }: { size?: Size }) {
+export function DiscordButton({
+  size = "md",
+  location,
+}: {
+  size?: Size;
+  location?: Location;
+}) {
   return (
     <a
       href={site.discord}
       target="_blank"
       rel="noopener noreferrer"
       aria-label={`Join the ${site.name} Discord server (opens in a new tab)`}
+      onClick={() => track("discord_click", { location: location ?? "unknown" })}
       className={`group relative inline-flex items-center justify-center rounded-lg bg-indigo-500 py-0.5 font-semibold text-white transition-colors hover:bg-indigo-600 ${sizes[size]}`}
     >
       <span className="z-10 pr-2">

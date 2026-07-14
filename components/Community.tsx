@@ -29,7 +29,7 @@ export function Community() {
                 chat &mdash; there&apos;s a seat for you. Jump in and say hello.
               </p>
               <div className="mt-8 flex justify-center">
-                <DiscordButton size="lg" />
+              <DiscordButton size="lg" location="community" />
               </div>
             </div>
           </div>

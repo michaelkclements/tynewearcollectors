@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { track } from "@vercel/analytics";
 import { site } from "@/lib/site";
 import { InstagramIcon } from "@/components/icons";
 import { DiscordButton } from "@/components/DiscordButton";
@@ -28,10 +31,11 @@ export function Header() {
             rel="noopener noreferrer"
             aria-label="Follow us on Instagram (opens in a new tab)"
             className="flex size-9 items-center justify-center rounded-full bg-surface-2 text-zinc-300 transition duration-200 hover:scale-110 hover:text-white"
+            onClick={() => track("instagram_click", { location: "header" })}
           >
             <InstagramIcon className="size-4" />
           </a>
-          <DiscordButton />
+          <DiscordButton location="header" />
         </div>
       </div>
     </header>

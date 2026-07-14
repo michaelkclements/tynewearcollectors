@@ -47,7 +47,7 @@ export function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
-            <DiscordButton size="lg" />
+            <DiscordButton size="lg" location="hero" />
             <span className="text-sm text-zinc-500">
               Free to join · No spam · Adults only
             </span>

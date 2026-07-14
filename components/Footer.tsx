@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { track } from "@vercel/analytics";
 import { site } from "@/lib/site";
 import { DiscordIcon, InstagramIcon } from "@/components/icons";
 
@@ -26,6 +29,7 @@ export function Footer() {
             rel="noopener noreferrer"
             aria-label="Join our Discord (opens in a new tab)"
             className="flex size-9 items-center justify-center rounded-full bg-surface-2 text-zinc-300 transition duration-200 hover:scale-110 hover:text-white"
+            onClick={() => track("discord_click", { location: "footer" })}
           >
             <DiscordIcon className="size-4" />
           </a>
@@ -35,6 +39,7 @@ export function Footer() {
             rel="noopener noreferrer"
             aria-label="Follow us on Instagram (opens in a new tab)"
             className="flex size-9 items-center justify-center rounded-full bg-surface-2 text-zinc-300 transition duration-200 hover:scale-110 hover:text-white"
+            onClick={() => track("instagram_click", { location: "footer" })}
           >
             <InstagramIcon className="size-4" />
           </a>
