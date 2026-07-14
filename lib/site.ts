@@ -3,7 +3,7 @@ export const site = {
   shortName: "TWC",
   tagline: "The North East collectors' community",
   description:
-    "Pokémon card drops, god packs, England match watch-parties and Friday night takeaway debates. Area notifications across Newcastle, Gateshead, Sunderland, Northumberland, Durham and Teesside. Built by collectors, for collectors.",
+    "Tyne & Wear region chat for slightly unhinged collectors. Geordies, Mackems, Smoggies and even a couple Loiners included.",
   url: "https://tynewearcollectors.com",
   discord: "https://discord.gg/hMFpaWxSNp",
   instagram: "https://instagram.com/tynewearcollectors",
