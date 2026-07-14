@@ -9,8 +9,8 @@ export function Topics() {
             What we&apos;re about
           </h2>
           <p className="mt-4 text-zinc-400">
-            We&apos;re a friendly bunch from across the North East. Cards are the
-            main event, but the conversation goes wherever the day takes it.
+            We&apos;re a friendly bunch from across the North East. Cards are
+            the main event, but the conversation goes wherever the day takes it.
           </p>
         </div>
 
@@ -20,10 +20,12 @@ export function Topics() {
               key={t.title}
               className="group rounded-2xl border border-border bg-surface p-6 transition duration-200 hover:-translate-y-1 hover:border-orange-500/60"
             >
-              <div className="flex size-12 items-center justify-center rounded-xl bg-surface-2 text-2xl">
-                {t.emoji}
+              <div className="flex items-center gap-3">
+                <div className="flex size-12 items-center justify-center rounded-xl bg-surface-2 text-2xl">
+                  {t.emoji}
+                </div>
+                <h3 className="text-lg font-bold">{t.title}</h3>
               </div>
-              <h3 className="mt-5 text-lg font-bold">{t.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-zinc-400">
                 {t.blurb}
               </p>
