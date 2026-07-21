@@ -18,7 +18,7 @@ const notifications: Array<{
         <strong className="text-amber-500">@Amazon</strong> Invites are sent out
         now, check out{" "}
         <a
-          href="https://www.amazon.co.uk/s?k=Pokemon+tcg&rh=n%3A26954013031%2Cp_85%3A20930949031%2Cp_123%3A325733%2Cp_6%3AA3P5ROKL5A1OLE&s=date-desc-rank&dc&ds=v1%3A%2FAJH5l6S%2BV%2FFC2Re2wpwRIM8bw%2BA1UBm740aP2t6RlA&crid=3EOR1K3ND82UJ&qid=1774339516&rnid=367778011&sprefix=pokemon+tcg%2Caps%2C264&tag=tynewearcollectors-21&ref=sr_st_date-desc-rank"
+          href="https://www.amazon.co.uk/s?k=Pokemon+tcg&rh=n%3A26954013031%2Cp_85%3A20930949031%2Cp_123%3A325733%2Cp_6%3AA3P5ROKL5A1OLE&s=date-desc-rank&dc=&ds=v1%3A%2FAJH5l6S%2BV%2FFC2Re2wpwRIM8bw%2BA1UBm740aP2t6RlA&crid=3EOR1K3ND82UJ&qid=1774339516&rnid=367778011&sprefix=pokemon+tcg%2Caps%2C264&linkCode=ll2&tag=tynewearcolle-21&linkId=2ea45006bb5679894e253497e993c0f2&ref_=as_li_ss_tl"
           className="text-indigo-400 hover:text-indigo-500"
           target="_blank"
           rel="noopener noreferrer"
